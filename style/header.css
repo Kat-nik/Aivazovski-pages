@@ -1,5 +1,10 @@
 .header {
+  background-color: #fff;
   padding: 25px 0 0 0;
+  position: sticky;
+  left: 0;
+  top: 0;
+  z-index: 999;
 }
 
 .nav {

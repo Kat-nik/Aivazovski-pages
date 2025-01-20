@@ -19,7 +19,7 @@
           <li><a href="#about-id" class="nav-link" aria-label="link to about">About</a></li>
           <li><a href="#history-id" class="nav-link" aria-label="link to history">History</a></li>
           <li><a href="#portfolio-id" class="nav-link" aria-label="link to portfolio">Portfolio</a></li>
-          <li><a href="#" class="nav-link" aria-label="link to contacts">Contacts</a></li>
+          <li><a href="#contacts-id" class="nav-link" aria-label="link to contacts">Contacts</a></li>
         </ul>
       </nav>
     </div>
@@ -67,13 +67,47 @@
         <p class="portfolio-description" aria-label="picture 2 description">Радуга, 1873 г. | Rainbow, 1873</p>
         <img src="./assets/webp/portfolio_3.webp" alt="Gulf of Naples in the morning" class="portfolio-picture">
         <p class="portfolio-description" aria-label="picture 3 description">Неаполитанский залив утром, 1893 г. | Gulf of Naples in the morning, 1893</p>
-       
       </div>
     </section>
 
   </main>
 
-  <footer></footer>
+  <footer class="contacts" aria-label="contacts section" id="contacts-id">
+    <div class="container">
+      <h2 class="contacts-title">Contacts</h2>
+      <button class="contacts-button">
+        <!-- Это не должна быть кнопка, оформленная ссылка!!! -->
+        <a href="https://rusmuseumvrm.ru/reference/classifier/author/ayvazovsky_ik/index.php" class="button-link" target="_blank">ayvazovsky.ru</a>
+      </button>
+      <address class="socials" aria-label="social ikons">
+        <a href="https://youtube.com" target="_blank" aria-label="link to youtube">
+          <svg class="social-ikon" aria-label="youtube icon">
+            <use href="/assets/sprites.svg#youtube-icon"></use>
+          </svg>
+        </a>
+
+        <a href="https://linkedin.com" target="_blank" aria-label="link to linkedin">
+          <svg class="social-ikon" aria-label="linkedin icon">
+            <use href="/assets/sprites.svg#linkedin-icon"></use>
+          </svg>
+        </a>
+
+        <a href="https://instagram.com" target="_blank" aria-label="link to instagram">
+          <svg class="social-ikon" aria-label="instagram icon">
+            <use href="/assets/sprites.svg#instagram-icon"></use>
+          </svg>
+        </a>
+
+        <a href="https://fasebook.com" target="_blank" aria-label="link to fasebook">
+          <svg class="social-ikon" aria-label="fasebook icon">
+            <use href="/assets/sprites.svg#fasebook-icon"></use>
+          </svg>
+        </a>
+      </address>
+
+        <p class="contacts-info" aria-label="just for notice">More works you can see in these social networks</p>
+    </div>
+  </footer>
 
   
 </body>
