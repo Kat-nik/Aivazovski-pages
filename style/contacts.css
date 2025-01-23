@@ -1,5 +1,5 @@
 .contacts {
-  padding: 65px 20px 53px;
+  padding: 65px 20px 63px;
   text-align: center;
 }
 
@@ -37,7 +37,7 @@
   
 }
 
-svg.social-ikon {
+.social-ikon {
   width: 65px;
   height: 65px;
   fill: var(--color-main-black);
