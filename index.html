@@ -25,8 +25,31 @@
     </div>
   </header>
 
-  <main aria-label="main">
+  <div class="mobile_navigation" aria-label="mobile_navigation">
+    <label for="toggler-id" aria-label="open-close mobile_navigation menu">
+    <svg class="mobile_navigation-burger" aria-label="burger icon">
+      <use href="assets/sprites.svg#burger-icon"></use>
+    </svg>
+  </label>
+    <input type="checkbox" id="toggler-id" class="mobile_navigation_toggler">
+    <nav class="mobile_navigation-menu" aria-label="mob header navigation">
+      <ul class="mobile_navigation-list" aria-label="mob header navigation list">
+        <li><a href="#home-id" class="mobile_navigation-link" aria-label="link to home">Home</a></li>
+        <li><a href="#about-id" class="mobile_navigation-link" aria-label="link to about">About</a></li>
+        <li><a href="#history-id" class="mobile_navigation-link" aria-label="link to history">History</a></li>
+        <li><a href="#portfolio-id" class="mobile_navigation-link" aria-label="link to portfolio">Portfolio</a></li>
+        <li><a href="#contacts-id" class="mobile_navigation-link" aria-label="link to contacts">Contacts</a></li>
+      </ul>
 
+      <label for="toggler-id" class="mobile_navigation-close" aria-label="open-close mobile_navigation menu">
+        <svg class="mobile_navigation-cross" aria-label="cross icon">
+          <use href="assets/sprites.svg#cross-icon"></use>
+        </svg>
+      </label>
+    </nav>
+  </div>
+
+  <main aria-label="main">
     <section class="home" aria-label="home section" id="home-id">
       <div class="container">
         <h1 class="home-title" aria-label="title">Ivan Constantinovich Aivazovski</h1>
@@ -75,10 +98,10 @@
   <footer class="contacts" aria-label="contacts section" id="contacts-id">
     <div class="container">
       <h2 class="contacts-title">Contacts</h2>
-      <button class="contacts-button">
+      <div class="contacts-button">
         <!-- Это не должна быть кнопка, оформленная ссылка!!! -->
         <a href="https://rusmuseumvrm.ru/reference/classifier/author/ayvazovsky_ik/index.php" class="button-link" target="_blank">ayvazovsky.ru</a>
-      </button>
+      </div>
 
       <address class="socials" aria-label="social ikons">
         <a href="https://youtube.com" target="_blank" aria-label="link to youtube">
